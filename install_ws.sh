@@ -79,3 +79,6 @@ case $ROS_VERSION in
         exit 1
         ;;
 esac
+
+# Delete .git
+rm -rf .git
