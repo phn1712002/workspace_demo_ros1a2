@@ -33,8 +33,8 @@ cd {name_project}
 3. Cài đặt các yêu cầu hệ thống:
 ```bash
 ./install/install_gits.sh       # Cài đặt các repository git cần thiết
-./install/install_packages.sh   # Cài đặt các gói hệ thống
 ./install/install_requiremensts.sh # Cài đặt các Python dependencies
+./install/install_packages.sh   # Cài đặt các gói hệ thống
 ```
 
 ## Tiện ích
