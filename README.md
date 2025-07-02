@@ -32,13 +32,9 @@ cd {name_project}
 
 3. Cài đặt các yêu cầu hệ thống:
 ```bash
+./install_requirements/install_gits.sh
 ./install_requirements/install_requirements.sh
 ./install_requirements/install_package.sh
-```
-
-4. Tải các git khác cần thiết cho project:
-```bash
-./{workspace}/src/git_clone.sh
 ```
 
 ## Tiện ích
