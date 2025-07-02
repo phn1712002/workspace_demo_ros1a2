@@ -33,7 +33,7 @@ Workspace mẫu này được thiết kế để hỗ trợ phát triển ứng 
 
 3. Tải các git khác cần thiết cho project:
 ```bash
-{workspace}/src/git_clone.sh
+./{workspace}/src/git_clone.sh
 ```
 
 ## Tiện ích
