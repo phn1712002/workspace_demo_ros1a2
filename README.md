@@ -33,23 +33,11 @@ cd {name_project}
 bash ./install_ws.sh
 ```
 
-3. Cài đặt các yêu cầu hệ thống:
-```bash
-bash ./install/install_gits.sh       # Cài đặt các repository git cần thiết
-bash ./install/install_requiremensts.sh # Cài đặt các Python dependencies
-bash ./install/install_packages.sh   # Cài đặt các gói hệ thống
-```
-
 ## Tiện ích
 
 ### Tiện ích workspace
 - `install_ws.sh`: Tự động tạo workspace và cấu trúc thư mục cơ bản
 - `auto_source.sh`: Tự động source environment ROS khi mở terminal
-
-### Tiện ích cài đặt
-- `install/install_gits.sh`: Clone các repository git được định nghĩa trong file cấu hình
-- `install/install_packages.sh`: Cài đặt các gói hệ thống cần thiết cho ROS  
-- `install/install_requiremensts.sh`: Cài đặt các Python dependencies từ requirements.txt trong các package
 
 ### Tiện tích git, bash
 - `git_clone.sh`: Script tự động clone các repository git 
