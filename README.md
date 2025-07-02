@@ -31,6 +31,11 @@ Workspace mẫu này được thiết kế để hỗ trợ phát triển ứng 
 ./install_ws.sh
 ```
 
+3. Tải các git khác cần thiết cho project:
+```bash
+{workspace}/src/git_clone.sh
+```
+
 ## Tiện ích
 - `install_ws.sh`: Tự động tạo nhanh một workspace
 - `auto_source.sh`: Tự động source environment khi mở terminal
