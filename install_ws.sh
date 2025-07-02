@@ -101,7 +101,7 @@ echo "ECAD_WS=$ECAD_WS"
 echo "MCAD_WS=$MCAD_WS"
 echo "SIMULATION_WS=$SIMULATION_WS"
 echo "UI_WS=$UI_WS"
-echo "SRC_ROS=$SOURCE_ROS"
+echo "SRC_ROS=$SRC_ROS"
 
 # Ask about git repo handling
 echo "Do you want to use this as a NEW project or REUSE/DEVELOP existing project?"
