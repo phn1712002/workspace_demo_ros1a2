@@ -80,6 +80,25 @@ case $ROS_VERSION in
         ;;
 esac
 
+# Export workspace environment variables
+echo "Exporting workspace environment variables..."
+export AI_WS="$(pwd)/ai_ws"
+export CATKIN_WS="$(pwd)/catkin_ws" 
+export COLCON_WS="$(pwd)/colcon_ws"
+export ECAD_WS="$(pwd)/ecad_ws"
+export MCAD_WS="$(pwd)/mcad_ws"
+export SIMULATION_WS="$(pwd)/simulation_ws"
+export UI_WS="$(pwd)/ui_ws"
+
+echo "Environment variables exported:"
+echo "AI_WS=$AI_WS"
+echo "CATKIN_WS=$CATKIN_WS"
+echo "COLCON_WS=$COLCON_WS"
+echo "ECAD_WS=$ECAD_WS"
+echo "MCAD_WS=$MCAD_WS"
+echo "SIMULATION_WS=$SIMULATION_WS"
+echo "UI_WS=$UI_WS"
+
 # Ask about git repo handling
 echo "Do you want to use this as a NEW project or REUSE/DEVELOP existing project?"
 echo "1) NEW project (delete .git and initialize new repository)"
