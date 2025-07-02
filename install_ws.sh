@@ -13,14 +13,7 @@ else
     exit 1
 fi
 
-echo "ROS $ROS_VERSION environment sourced"
-echo
-echo "Please choose ROS version:"
-echo "1) ROS 1"
-echo "2) ROS 2"
-read -p "Enter your choice (1 or 2): " ros_choice
-
-case $ros_choice in
+case $ROS_VERSION in
     1)
         echo "Selected ROS 1 - Removing colcon_ws folder"
         if [ -d "colcon_ws" ]; then
