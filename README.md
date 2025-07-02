@@ -30,14 +30,14 @@ cd {name_project}
 
 2. Khởi tạo workspace:
 ```bash
-./install_ws.sh
+bash ./install_ws.sh
 ```
 
 3. Cài đặt các yêu cầu hệ thống:
 ```bash
-./install/install_gits.sh       # Cài đặt các repository git cần thiết
-./install/install_requiremensts.sh # Cài đặt các Python dependencies
-./install/install_packages.sh   # Cài đặt các gói hệ thống
+bash ./install/install_gits.sh       # Cài đặt các repository git cần thiết
+bash ./install/install_requiremensts.sh # Cài đặt các Python dependencies
+bash ./install/install_packages.sh   # Cài đặt các gói hệ thống
 ```
 
 ## Tiện ích
