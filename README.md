@@ -35,6 +35,7 @@ Workspace mẫu này được thiết kế để hỗ trợ phát triển ứng 
 - `install_ws.sh`: Tự động tạo nhanh một workspace
 - `auto_source.sh`: Tự động source environment khi mở terminal
 - Các script trong `install_requirements/` giúp cài đặt nhanh các gói cần thiết
+- `git_clone.sh`: Script tự động clone các repository git được liệt kê trong file list_git_clone.txt (có trong cả ROS1 và ROS2 workspace)
 
 ## Ghi chú
 
