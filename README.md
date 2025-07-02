@@ -33,6 +33,20 @@ cd {name_project}
 bash ./install_ws.sh
 ```
 
+3. Tải các thứ liên quan:
+```bash
+# Đối với ROS1
+cd $CATKIN_WS/src/
+bash git_clone.sh
+bash run_bash.sh
+```
+```bash
+# Đối với ROS22
+cd $COLCON_WS/src/
+bash git_clone.sh
+bash run_bash.sh
+```
+
 ## Tiện ích
 
 ### Tiện ích workspace
