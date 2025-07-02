@@ -19,11 +19,10 @@ Workspace mẫu này được thiết kế để hỗ trợ phát triển ứng 
 ```
 
 ## Thiết lập ban đầu
-
-1. Cài đặt các yêu cầu hệ thống:
+1. Tải demo 
 ```bash
-./install_requirements/install_requirements.sh
-./install_requirements/install_package.sh
+git clone https://github.com/phn1712002/workspace_demo_ros1a2.git {name_project}
+cd {name_project}
 ```
 
 2. Khởi tạo workspace:
@@ -31,7 +30,13 @@ Workspace mẫu này được thiết kế để hỗ trợ phát triển ứng 
 ./install_ws.sh
 ```
 
-3. Tải các git khác cần thiết cho project:
+3. Cài đặt các yêu cầu hệ thống:
+```bash
+./install_requirements/install_requirements.sh
+./install_requirements/install_package.sh
+```
+
+4. Tải các git khác cần thiết cho project:
 ```bash
 ./{workspace}/src/git_clone.sh
 ```
