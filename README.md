@@ -13,7 +13,7 @@ Workspace mẫu này được thiết kế để hỗ trợ phát triển ứng 
 │   └── src/            # Chứa các package ROS2
 ├── simulation_ws/      # Workspace cho mô phỏng
 ├── ui_ws/              # Workspace cho giao diện người dùng
-├── install_requirements/ # Các script cài đặt yêu cầu
+├── install/              # Các script cài đặt yêu cầu
 ├── auto_source.sh      # Script tự động source environment
 └── install_ws.sh       # Script cài đặt workspace
 ```
@@ -32,16 +32,24 @@ cd {name_project}
 
 3. Cài đặt các yêu cầu hệ thống:
 ```bash
-./install_requirements/install_gits.sh
-./install_requirements/install_requirements.sh
-./install_requirements/install_package.sh
+./install/install_gits.sh       # Cài đặt các repository git cần thiết
+./install/install_packages.sh   # Cài đặt các gói hệ thống
+./install/install_requiremensts.sh # Cài đặt các Python dependencies
 ```
 
 ## Tiện ích
-- `install_ws.sh`: Tự động tạo nhanh một workspace
-- `auto_source.sh`: Tự động source environment khi mở terminal
-- Các script trong `install_requirements/` giúp cài đặt nhanh các gói cần thiết
-- `git_clone.sh`: Script tự động clone các repository git được liệt kê trong file list_git_clone.txt (có trong cả ROS1 và ROS2 workspace)
+
+### Tiện ích workspace
+- `install_ws.sh`: Tự động tạo workspace và cấu trúc thư mục cơ bản
+- `auto_source.sh`: Tự động source environment ROS khi mở terminal
+
+### Tiện ích cài đặt
+- `install/install_gits.sh`: Clone các repository git được định nghĩa trong file cấu hình
+- `install/install_packages.sh`: Cài đặt các gói hệ thống cần thiết cho ROS  
+- `install/install_requiremensts.sh`: Cài đặt các Python dependencies từ requirements.txt trong các package
+
+### Tiện tích git
+- `git_clone.sh`: Script tự động clone các repository git (có trong cả ROS1 và ROS2 workspace)
 
 ## Ghi chú
 
