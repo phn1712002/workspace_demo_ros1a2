@@ -51,11 +51,11 @@ cd {name_project}
 - `install/install_packages.sh`: Cài đặt các gói hệ thống cần thiết cho ROS  
 - `install/install_requiremensts.sh`: Cài đặt các Python dependencies từ requirements.txt trong các package
 
-### Tiện tích git, run_bash.sh 
+### Tiện tích git, bash
 - `git_clone.sh`: Script tự động clone các repository git 
 - `run_bash.sh`: Script tự động các lệnh cần thiết trong linux
 
 ## Ghi chú
 
 - Để thêm package mới, tạo thư mục package trong `src/` tương ứng (ROS1/ROS2)
-- Các workspace khác (ai_ws, simulation_ws, ui_ws) có thể được cấu hình tùy theo nhu cầu
+- Các workspace khác (ai_ws, simulation_ws, ui_ws, mcad_ws, ecad_ws, other_ws) có thể được cấu hình tùy theo nhu cầu
