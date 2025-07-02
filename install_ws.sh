@@ -82,6 +82,7 @@ esac
 
 # Export workspace environment variables
 echo "Exporting workspace environment variables..."
+export MY_WS="$(pwd)"
 export AI_WS="$(pwd)/ai_ws"
 export CATKIN_WS="$(pwd)/catkin_ws" 
 export COLCON_WS="$(pwd)/colcon_ws"
@@ -91,6 +92,7 @@ export SIMULATION_WS="$(pwd)/simulation_ws"
 export UI_WS="$(pwd)/ui_ws"
 
 echo "Environment variables exported:"
+echo "MY_WS=$MY_WS"
 echo "AI_WS=$AI_WS"
 echo "CATKIN_WS=$CATKIN_WS"
 echo "COLCON_WS=$COLCON_WS"
