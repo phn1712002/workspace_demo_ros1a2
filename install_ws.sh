@@ -80,5 +80,27 @@ case $ROS_VERSION in
         ;;
 esac
 
-# Delete .git
-rm -rf .git
+# Ask about git repo handling
+echo "Do you want to use this as a NEW project or REUSE/DEVELOP existing project?"
+echo "1) NEW project (delete .git and initialize new repository)"
+echo "2) REUSE/DEVELOP existing project (keep .git)"
+read -p "Enter choice (1 or 2): " git_choice
+
+case $git_choice in
+    1)
+        echo "Setting up as NEW project - removing .git and README.md, initializing new repository"
+        rm -rf .git
+        if [ -f "README.md" ]; then
+            rm README.md
+            echo "README.md removed"
+        fi
+        git init
+        echo "New git repository initialized"
+        ;;
+    2)
+        echo "Keeping existing .git for REUSE/DEVELOPMENT"
+        ;;
+    *)
+        echo "Invalid choice - keeping existing .git"
+        ;;
+esac
