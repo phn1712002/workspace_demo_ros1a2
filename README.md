@@ -13,7 +13,7 @@ Workspace mẫu này được thiết kế để hỗ trợ phát triển ứng 
 │   └── src/            # Chứa các package ROS2
 ├── simulation_ws/      # Workspace cho mô phỏng
 ├── ui_ws/              # Workspace cho giao diện người dùng
-├── install/              # Các script cài đặt yêu cầu
+├── install/            # Các script cài đặt yêu cầu
 ├── auto_source.sh      # Script tự động source environment
 └── install_ws.sh       # Script cài đặt workspace
 ```
