@@ -62,3 +62,7 @@ bash run_bash.sh
 
 - Để thêm package mới, tạo thư mục package trong `src/` tương ứng (ROS1/ROS2)
 - Các workspace khác (ai_ws, simulation_ws, ui_ws, mcad_ws, ecad_ws, other_ws) có thể được cấu hình tùy theo nhu cầu
+
+## Liên hệ
+1. Tác giả : Phạm Hoàng Nam
+2. Gmail : phn1712002@gmail.com
