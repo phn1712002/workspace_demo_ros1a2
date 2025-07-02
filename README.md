@@ -13,6 +13,9 @@ Workspace mẫu này được thiết kế để hỗ trợ phát triển ứng 
 │   └── src/            # Chứa các package ROS2
 ├── simulation_ws/      # Workspace cho mô phỏng
 ├── ui_ws/              # Workspace cho giao diện người dùng
+├── mcad_ws/            # Workspace cho liên quan cơ khí 3D, 2D
+├── ecad_ws/            # Workspace cho mạch điện tử, hệ thống điện
+├── other_ws/           # Workspace cho thành phần khác của dự án
 ├── install/            # Các script cài đặt yêu cầu
 ├── auto_source.sh      # Script tự động source environment
 └── install_ws.sh       # Script cài đặt workspace
@@ -48,8 +51,9 @@ cd {name_project}
 - `install/install_packages.sh`: Cài đặt các gói hệ thống cần thiết cho ROS  
 - `install/install_requiremensts.sh`: Cài đặt các Python dependencies từ requirements.txt trong các package
 
-### Tiện tích git
-- `git_clone.sh`: Script tự động clone các repository git (có trong cả ROS1 và ROS2 workspace)
+### Tiện tích git, run_bash.sh 
+- `git_clone.sh`: Script tự động clone các repository git 
+- `run_bash.sh`: Script tự động các lệnh cần thiết trong linux
 
 ## Ghi chú
 
