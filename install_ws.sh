@@ -90,6 +90,7 @@ export ECAD_WS="$(pwd)/ecad_ws"
 export MCAD_WS="$(pwd)/mcad_ws"
 export SIMULATION_WS="$(pwd)/simulation_ws"
 export UI_WS="$(pwd)/ui_ws"
+export SOURCE_ROS="$(pwd)/auto_source.sh"
 
 echo "Environment variables exported:"
 echo "MY_WS=$MY_WS"
@@ -100,6 +101,7 @@ echo "ECAD_WS=$ECAD_WS"
 echo "MCAD_WS=$MCAD_WS"
 echo "SIMULATION_WS=$SIMULATION_WS"
 echo "UI_WS=$UI_WS"
+echo "SOURCE_ROS=$SOURCE_ROS"
 
 # Ask about git repo handling
 echo "Do you want to use this as a NEW project or REUSE/DEVELOP existing project?"
